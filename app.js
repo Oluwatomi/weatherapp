@@ -23,13 +23,13 @@ axios.get('http://ip-api.com/json')
 	    	console.log(response.data.weather[0].description);
 	  	})
 		.catch(function (error) {
-			console.log("An error occurred 2");
+			console.log("An error occurred with the weather API");
 	    	console.log(error);
 	  	});
   	})
 
   .catch(function (error) {
-  	console.log("An error occurred");
+  	console.log("An error occurred with the API required to get your lattitude and longtitude");
     console.log(error);
   });
 
