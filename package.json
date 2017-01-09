@@ -1,0 +1,15 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "A simple command line application to show the local weather",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Duyile Oluwatomi John",
+  "license": "ISC"
+}
